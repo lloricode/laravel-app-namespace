@@ -1,0 +1,34 @@
+{
+        "name": "lloricode/laravel-app-namespace",
+        "description": "Rename App namespace included config, database, and tests files",
+        "license": "MIT",
+        "type": "library",
+        "authors": [
+            {
+                "name": "Lloric Mayuga Garcia",
+                "email": "lloricode@gmail.com"
+            }
+        ],
+        "require": {
+        },
+        "require-dev": {
+        },
+        "autoload": {
+                "psr-4": {
+                        "Lloricode\\LaravelAppNamespace\\": "src/"
+                }
+        },
+        "autoload-dev": {
+                "psr-4": {
+                }
+        },
+        "extra": {
+                "laravel": {
+                        "providers": [
+                                " Lloricode\\LaravelAppNamespace\\Providers;AppServiceProvider",
+                        ],
+                        "aliases": {
+                        }
+                }
+        }
+}
