@@ -70,7 +70,7 @@ class AppNameCommand extends Command
     {
 
         Artisan::queue('app:name', [
-                'name' => $this->getNameInput(),
+                'name' => $this->argument('name'),
         ]);
 
         $this->currentRoot = trim($this->laravel->getNamespace(), '\\');
