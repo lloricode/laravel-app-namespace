@@ -25,7 +25,7 @@
         "extra": {
                 "laravel": {
                         "providers": [
-                                " Lloricode\\LaravelAppNamespace\\Providers;AppServiceProvider"
+                                " Lloricode\\LaravelAppNamespace\\Providers\\AppServiceProvider"
                         ],
                         "aliases": {
                         }
