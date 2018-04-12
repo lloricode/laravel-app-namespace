@@ -95,6 +95,7 @@ class AppNameCommand extends Command
             'config',
             'tests',
             'database',
+            'resources',
         ];
 
         foreach($dirs as $dir)
